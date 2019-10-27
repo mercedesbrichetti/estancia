@@ -13,25 +13,120 @@
 
 html{
   color: #222;
-  font-size: 1em;
+  *font-size: 1em;
   line-height: 1.4;
 }
 
-body {
-  margin: 0;
-}
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|Roboto&display=swap');
+
+body {margin: 0; padding: 0;}
 
 /*font-family: 'Merriweather Sans', sans-serif;
 font-family: 'Roboto', sans-serif; -->*/
-@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|Roboto&display=swap');
+
+.header1{
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+
 
 h1{
-  font-size: 1em;
+  font-size: 1em; 
   font-family: 'Roboto', sans-serif;
-  margin: 0;
+  color: gray;
+}
+
+h2{
+  font-size: 1em; 
+  font-family: 'Roboto', sans-serif;
+  color:rgba(211, 160, 82)
 }
 
 .container{
-  width: 40%;
+  width: 100%;}
+
+
+.sec1{
+  background-image: url("../img/edison_bulb.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top:200px;
+  padding-bottom:200px;
 }
+
+.frase{
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  font-size: 1.1em;
+  color: black;
+}
+.frase1{
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  font-size: 34px;
+  color: gray;
+}
+.frase2{
+  color:rgba(211, 160, 82)
+}
+
+.sec2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.slide1, .slide2, .slide3, .slide4, .slide5, .slide6{
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.slide1{background-image: url("../img/slider_bar.jpg");}
+.slide2{background-image: url("../img/slider_restaurant.jpg");}
+.slide3{background-image: url("../img/slider_local.jpg");}
+.slide4{background-image: url("../img/slider_casa.jpg");}
+.slide5{background-image: url("../img/slider_loft.jpg");}
+.slide6{background-image: url("../img/slider_country.jpg");}
+
+
+.sec3{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card-title, .card-text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+.vermas{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sec4{
+  background-image: url("../img/nosotros_fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 80px;
+}
+
+.nosotros{
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top:40px;
+  padding-bottom:80px;
+}
+
+.sec5{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
 
