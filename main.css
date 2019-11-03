@@ -1,0 +1,154 @@
+/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html{
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|Roboto&display=swap');
+
+body {margin: 0; padding: 0; font-family: 'Roboto', sans-serif;}
+
+/*font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Roboto', sans-serif; -->*/
+
+.header1{
+  text-align: center;
+  padding-top: 2%; padding-bottom: 1%;
+}
+
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  color: gray;
+}
+
+h2{
+  font-size: 1em; 
+  font-family: 'Roboto', sans-serif;
+  color:rgba(211, 160, 82)
+}
+
+
+
+.sec1{
+  background-image: url("../img/edison_bulb.jpg");
+  background-size: cover;
+  background-position: absolute;
+  text-align: center;
+  padding-top:200px;
+  padding-bottom:200px;
+}
+
+.fraseprincipal{
+  background-color: rgba(211, 160, 82, 0.3);
+  background-size: 100%;
+  background-position: absolute;
+  z-index: 0;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.frase{
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  font-size: 1.1em;
+  color: black;
+}
+.frase1{
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: gray;
+}
+.frase2{
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color:rgba(211, 160, 82);
+}
+
+.sec2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.slide1, .slide2, .slide3, .slide4, .slide5, .slide6{
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.slide1{background-image: url("../img/slider_bar.jpg");}
+.slide2{background-image: url("../img/slider_restaurant.jpg");}
+.slide3{background-image: url("../img/slider_local.jpg");}
+.slide4{background-image: url("../img/slider_casa.jpg");}
+.slide5{background-image: url("../img/slider_loft.jpg");}
+.slide6{background-image: url("../img/slider_country.jpg");}
+
+
+.sec3{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card-title, .card-text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+.vermas{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sec4{
+  background-image: url("../img/nosotros_fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 80px;
+}
+
+.frase3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  color: rgba(211, 160, 82);
+}
+
+.nosotros{
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top:40px;
+  padding-bottom:80px;
+}
+
+.sec5{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.firma{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: rgba(211, 160, 82);
+}
+
+
+
