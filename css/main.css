@@ -13,26 +13,24 @@
 
 html{
   color: #222;
-  *font-size: 1em;
+  font-size: 1em;
   line-height: 1.4;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|Roboto&display=swap');
 
-body {margin: 0; padding: 0;}
+body {margin: 0; padding: 0; font-family: 'Roboto', sans-serif;}
 
 /*font-family: 'Merriweather Sans', sans-serif;
 font-family: 'Roboto', sans-serif; -->*/
 
 .header1{
-  margin-top: 2%;
-  margin-bottom: 1%;
+  text-align: center;
+  padding-top: 2%; padding-bottom: 1%;
 }
 
 
-
 h1{
-  font-size: 1em; 
   font-family: 'Roboto', sans-serif;
   color: gray;
 }
@@ -43,17 +41,24 @@ h2{
   color:rgba(211, 160, 82)
 }
 
-.container{
-  width: 100%;}
 
 
 .sec1{
   background-image: url("../img/edison_bulb.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: absolute;
   text-align: center;
   padding-top:200px;
   padding-bottom:200px;
+}
+
+.fraseprincipal{
+  background-color: rgba(211, 160, 82, 0.3);
+  background-size: 100%;
+  background-position: absolute;
+  z-index: 0;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .frase{
@@ -65,11 +70,14 @@ h2{
 .frase1{
   font-family: 'Merriweather Sans', sans-serif;
   text-align: center;
-  font-size: 34px;
+  font-size: 30px;
   color: gray;
 }
 .frase2{
-  color:rgba(211, 160, 82)
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color:rgba(211, 160, 82);
 }
 
 .sec2{
@@ -113,6 +121,13 @@ h2{
   padding-top: 80px;
 }
 
+.frase3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  color: rgba(211, 160, 82);
+}
+
 .nosotros{
   font-family: 'Roboto', sans-serif;
   text-align: justify;
@@ -126,6 +141,13 @@ h2{
 .sec5{
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.firma{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: rgba(211, 160, 82);
 }
 
 
