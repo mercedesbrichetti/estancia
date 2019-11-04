@@ -29,6 +29,11 @@ font-family: 'Roboto', sans-serif; -->*/
   padding-top: 2%; padding-bottom: 1%;
 }
 
+.navbar{
+  background-color:;
+}
+
+
 
 h1{
   font-family: 'Roboto', sans-serif;
@@ -40,7 +45,6 @@ h2{
   font-family: 'Roboto', sans-serif;
   color:rgba(211, 160, 82)
 }
-
 
 
 .sec1{
@@ -56,9 +60,8 @@ h2{
   background-color: rgba(211, 160, 82, 0.3);
   background-size: 100%;
   background-position: absolute;
-  z-index: 0;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 20%;
+  padding-bottom: 20%;
 }
 
 .frase{
@@ -117,8 +120,8 @@ h2{
 .sec4{
   background-image: url("../img/nosotros_fondo.jpg");
   background-size: cover;
-  background-position: center;
-  padding-top: 80px;
+  background-position: absolute;
+  padding: 5%;
 }
 
 .frase3{
@@ -132,10 +135,6 @@ h2{
   font-family: 'Roboto', sans-serif;
   text-align: justify;
   color: white;
-  margin-left: 100px;
-  margin-right: 100px;
-  padding-top:40px;
-  padding-bottom:80px;
 }
 
 .sec5{
