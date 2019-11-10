@@ -15,6 +15,7 @@ html{
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  scroll-behavior: smooth;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|Roboto&display=swap');
@@ -24,44 +25,81 @@ body {margin: 0; padding: 0; font-family: 'Roboto', sans-serif;}
 /*font-family: 'Merriweather Sans', sans-serif;
 font-family: 'Roboto', sans-serif; -->*/
 
+#header{
+  position: sticky;
+  top:0;
+  width: 100vw;
+  background-color: white;
+  z-index: 1000;
+}
+
 .header1{
+  padding-top: 4px;
+}
+
+#navbar{
+  padding: 1%;
+}
+
+#navbar a{
+  color: black;
+  padding: 12px;
   text-align: center;
-  padding-top: 2%; padding-bottom: 1%;
+  font-size: 1em;
 }
 
-.navbar{
-  background-color:;
+#navbar a:hover{
+  border-bottom: 1px solid rgba(211, 160, 82);
 }
 
-
-
+/*
 h1{
   font-family: 'Roboto', sans-serif;
   color: gray;
-}
+}*/
 
 h2{
-  font-size: 1em; 
   font-family: 'Roboto', sans-serif;
+  font-size: 1em; 
   color:rgba(211, 160, 82)
 }
 
-
-.sec1{
+.parallax {
+  /* The image used */
   background-image: url("../img/edison_bulb.jpg");
+  /* Set a specific height */
+  min-height: 1000px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: absolute;
   text-align: center;
-  padding-top:200px;
-  padding-bottom:200px;
+  padding-top:150px;
+  padding-bottom:150px;
+}
+
+.titulo{
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  text-shadow: 5px 5px 10px rgba(101, 55, 10);
+  font-size: 2.1em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color:rgba(73, 40, 7);
 }
 
 .fraseprincipal{
   background-color: rgba(211, 160, 82, 0.3);
   background-size: 100%;
   background-position: absolute;
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+@keyframes apareceTexto{
+  0%{opacity:0;}
+  100%{opacity:1;}
 }
 
 .frase{
@@ -75,6 +113,10 @@ h2{
   text-align: center;
   font-size: 30px;
   color: gray;
+  position: relative;
+  animation-name: atemporal;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 2;
 }
 .frase2{
   font-family: 'Merriweather Sans', sans-serif;
@@ -117,12 +159,26 @@ h2{
   margin-bottom: 50px;
 }
 
-.sec4{
+.parallax1 {
+  /* The image used */
+  background-image: url("../img/nosotros_fondo.jpg");
+  /* Set a specific height */
+  min-height: 800px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  padding: 5%;
+}
+
+/*.sec4{
   background-image: url("../img/nosotros_fondo.jpg");
   background-size: cover;
   background-position: absolute;
   padding: 5%;
-}
+}*/
 
 .frase3{
   font-family: 'Roboto', sans-serif;
@@ -133,7 +189,7 @@ h2{
 
 .nosotros{
   font-family: 'Roboto', sans-serif;
-  text-align: justify;
+  text-align: left;
   color: white;
 }
 
