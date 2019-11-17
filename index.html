@@ -38,7 +38,7 @@
           <!--<h1 style="font-size: 30px">ESTANCIA CERO</h1>-->
     <div id="navbar">
       <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" style="font-family: 'Merriweather Sans', sans-serif;font-size:28px;color:gray;" href="#"><strong>ESTANCIA CERO</strong></a>
+      <a class="navbar-brand" style="font-family: 'Merriweather Sans', sans-serif;font-size:24px;color:gray;" href="#"><strong>ESTANCIA CERO</strong></a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -203,34 +203,48 @@ Versátil, neutro y de carácter,</span> se adapta a múltiples ambientes.</p>
 </section>
 
 <!--Formulario Contacto-->
-<section class="container-fluid sec5">
+<section class="container-fluid w-50 sec5">
       <div class="contacto">
 <h2>Contáctanos</h2><br>      
 <p>¿Tienes preguntas, comentarios o algún pedido especial?</p>
 <p>Contáctanos hoy mismo.</p><br>
+</div>
 
-<form action="mailto:mail@mail.com" method="post" id="formContacto">
- 
-  <label for="campoNombre">Nombre *</label>
-  <input type="text" name="nombre" id="campoNombre" required>
-
-  <label for="campoLocalidad" >Localidad </label>
-  <input type="text" name="localidad" id="combolocalidad">
-
-  <label for="campoEmail">Email *</label>
-  <input type="email" name="email" id="campoEmail" required>
- 
- 
-<div>
-  <label for="campoMensaje">Mensaje: </label><br>
-  <textarea name="mensaje" id="campoMensaje" minlength="8" maxlength="1000" required>
+<form>
+<!--<form action="mailto:mail@mail.com" method="post" id="formContacto">-->
+  <div class="form-group">
+  <label class="sr-only" for="campoNombre">Nombre</label>
+  <input type="text" class="form-control" placeholder="Nombre" required>
+</div>
+<div class="form-row">
+    <div class="col">
+      <label class="sr-only" for="campoLocalidad">Localidad</label>
+      <input type="text" class="form-control" placeholder="Localidad">
+    </div>
+    <div class="col">
+    <label class="sr-only" for="campoProvincia">Provincia</label>
+      <input type="text" class="form-control" placeholder="Provincia" required>
+    </div>
+  </div><br>
+ <div class="form-group">
+  <label class="sr-only" for="campoEmail">Email</label>
+  <input type="email" class="form-control" placeholder="Email" required>
+</div>
+<div class="form-group">
+  <label class="sr-only" for="campoCelular">Celular</label>
+  <input type="number" class="form-control" placeholder="Celular" required><br>
+</div>
+<div class="form-group">
+<label class="" for="campoMensaje">Mensaje:</label><br>
+  <textarea name="mensaje" minlength="8" maxlength="1000" class="form-control" placeholder="Escribe aquí tu Mensaje" required>
   </textarea>
 </div>
 
-  <input type="submit" value="Enviar">
+<button class="btn btn-outline-secondary" type="submit">Enviar</button>
  
 </form>
 </section>
+
 
 <!--<div class="jumbotron text-center" style="margin-bottom:0; background-color: transparent;">-->
 <footer>
