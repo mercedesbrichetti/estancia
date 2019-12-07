@@ -6,13 +6,16 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Estancia Cero</title>
   <meta name="description" content="Iluminación y Productos Estilo Industrial Vintage">
-  <meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="shortcut icon" href="favicon.ico">
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+
+  <!--FontAwesome Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 
   <!--AOS animation-->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -38,7 +41,7 @@
           <!--<h1 style="font-size: 30px">ESTANCIA CERO</h1>-->
     <div id="navbar">
       <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" style="font-family: 'Merriweather Sans', sans-serif;font-size:24px;color:gray;" href="#"><strong>ESTANCIA CERO</strong></a>
+      <a class="navbar-brand" style="font-family: 'Merriweather Sans', sans-serif;font-size:24px;color:gray;" href="#"><strong>ESTANCIA CERO</strong><h1 class="text-hide">ESTANCIA CERO</h1></a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -46,7 +49,7 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Inicio <span class="sr-only">(actual)</span></a>
               </li>
               <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -62,14 +65,14 @@
               <li class="nav-item">
               <a class="nav-link" href="#">El Estilo</a>
              </li>
-              <li class="nav-item" style="background-color: rgba(211, 160, 82);">
+              <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/Estancia-Cero-104792754337347/" target="_blank"><img src="img/16facebook.png" alt="Facebook"></a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/estanciacero/" target="_blank"><img src="img/16instagram.png" alt="Instagram"></a>
+              </li>
+               <li class="nav-item" style="background-color: rgba(211, 160, 82, 0.7);">
               <a class="nav-link" href="#">Contacto</a>
-              </li>
-              <li class="nav-item">
-              <a class="nav-link" href="#"><img src="img/16facebook.png" alt="Facebook"></a>
-              </li>
-              <li class="nav-item">
-              <a class="nav-link" href="#"><img src="img/16instagram.png" alt="Instagram"></a>
               </li>
          </div>
        </li>
@@ -89,14 +92,14 @@
 </div>
 
 
-<div class="frase1 sec2">
+<div class="container frase1 sec2 shadow-lg p-3 mb-5 bg-white rounded">
 <p>Un estilo atemporal <span class="frase2">que es la última tendencia.<br>
 Versátil, neutro y de carácter,</span> se adapta a múltiples ambientes.</p>
 </div>
 
 <!-- Slider -->
 <div class="container slider">
-    <div id="carouselExampleCaptions" class="carousel-fade carousel slide" data-ride="carousel" data-interval="3000" data-keyboard="false" data-touch="true">
+    <div id="carouselExampleCaptions" class="carousel-fade carousel slide" data-ride="carousel" data-interval="2000" data-keyboard="false" data-touch="true">
       <div class="carousel-inner">
         <div class="carousel-item active slide1">
           <div class="carousel-caption">
@@ -182,7 +185,7 @@ Versátil, neutro y de carácter,</span> se adapta a múltiples ambientes.</p>
 
 <!--Botón Productos-->
 <div class="container-fluid vermas">
-  <button type="button" class="btn btn-outline-secondary">VER MÁS PRODUCTOS</button>
+  <button class="button button1"><span>VER MÁS PRODUCTOS </span></button>
 </div>
 
 <!-- Sobre Nosotros-->
@@ -203,54 +206,103 @@ Versátil, neutro y de carácter,</span> se adapta a múltiples ambientes.</p>
 </section>
 
 <!--Formulario Contacto-->
-<section class="container-fluid w-50 sec5">
-      <div class="contacto">
+<section class="container-fluid sec5">
+<div class="contacto">
 <h2>Contáctanos</h2><br>      
 <p>¿Tienes preguntas, comentarios o algún pedido especial?</p>
-<p>Contáctanos hoy mismo.</p><br>
+<p><strong>Contáctanos hoy mismo.</strong></p><br>
 </div>
 
-<form>
+<div class="row">
+  <div class="col-xs-12 col-sm-4 col-md-4 col-lg-6 datos1">
+<form class="formulario">
 <!--<form action="mailto:mail@mail.com" method="post" id="formContacto">-->
   <div class="form-group">
   <label class="sr-only" for="campoNombre">Nombre</label>
   <input type="text" class="form-control" placeholder="Nombre" required>
 </div>
-<div class="form-row">
-    <div class="col">
-      <label class="sr-only" for="campoLocalidad">Localidad</label>
-      <input type="text" class="form-control" placeholder="Localidad">
-    </div>
-    <div class="col">
-    <label class="sr-only" for="campoProvincia">Provincia</label>
-      <input type="text" class="form-control" placeholder="Provincia" required>
-    </div>
-  </div><br>
  <div class="form-group">
   <label class="sr-only" for="campoEmail">Email</label>
   <input type="email" class="form-control" placeholder="Email" required>
 </div>
 <div class="form-group">
-  <label class="sr-only" for="campoCelular">Celular</label>
-  <input type="number" class="form-control" placeholder="Celular" required><br>
+  <label class="sr-only" for="campoCelular">Teléfono</label>
+  <input type="text" class="form-control" placeholder="Teléfono" required><br>
 </div>
-<div class="form-group">
-<label class="" for="campoMensaje">Mensaje:</label><br>
-  <textarea name="mensaje" minlength="8" maxlength="1000" class="form-control" placeholder="Escribe aquí tu Mensaje" required>
-  </textarea>
+  <div class="form-group">
+  <label class="" for="campoMensaje">Mensaje:</label><br>
+  <textarea class="form-control" placeholder="Escribe aquí tu Mensaje"rows="3"></textarea>
+  </div>
+<button class="button button2" type="submit"><span>Enviar </span></button>
+</form>
+</div>
 </div>
 
-<button class="btn btn-outline-secondary" type="submit">Enviar</button>
- 
-</form>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-6 datos">
+  <h5>Contacto Directo</h5><br>
+  <p><img src="img/mail1.png" style="width:30px;height:30px"> estanciacero@gmail.com</p>
+  <p><img src="img/whatsapp1.png" style="width:30px;height:30px"> 11 6987 9295</a></p><br>
+  <p>Buenos Aires, Argentina</p><br>
+  <p><strong>Síguenos</strong></p><br>
+  <div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center">
+  <ul class="list-inline social text-center">
+    <li><a href="https://www.facebook.com/Estancia-Cero-104792754337347/" target="_blank"><img src="img/facebook1.png" alt="Facebook" style="width:22px;height:22px;"></a></li>
+    <br>
+  <li><a href="https://www.instagram.com/estanciacero/" target="_blank"><img src="img/instagram1.png" alt="Instagram" style="width:22px;height:22px;"></a></li>
+</ul>
+</div>
+</div>
+</div>
 </section>
 
+<!--Whatsapp botón fijo-->
+  <a href="https://wa.me/541169879295?text=Hola!%20Tengo%20una%20consulta%20" class="float" target="_blank">
+<i class="fab fa-whatsapp my-float"></i>
+</a>
 
-<!--<div class="jumbotron text-center" style="margin-bottom:0; background-color: transparent;">-->
-<footer>
-    <p style="text-align: center; font-size: 14px">&#169<time> 2019</time> Estancia Cero | <span class="firma"><strong>Web Design</strong></span> &#9819 Mercedes Brichetti</p>
+
+<!-- BOOSTRAP FOOTER WEB https://bootsnipp.com/snippets/rlXdE-->
+<footer class="footer">
+<div class="container">
+<div class="row">
+<div class=" col-sm-4 col-md col-sm-4  col-12 col">
+<h5 class="headin5_amrc col_white_amrc pt2" style="color:rgba(211, 160, 82, 0.9);">ESTANCIA CERO</h5>
+</div>
+
+<div class=" col-sm-4 col-md  col-6 col">
+<h6 class="headin5_amrc col_white_amrc pt2">Mapa del Sitio</h6>
+<ul class="footer_ul_amrc">
+<li><a href="">Inicio</a></li>
+<li><a href="">Productos</a></li>
+<li><a href="">El Estilo</a></li>
+<li><a href="">Nosotros</a></li>
+<li><a href="">Contacto</a></li>
+</ul>
+</div>
+
+<div class=" col-sm-4 col-md  col-6 col">
+<h6 class="headin5_amrc col_white_amrc pt2">TIENDA</h6>
+<!--headin5_amrc-->
+<ul class="footer_ul_amrc">
+<li><a href="">Catálogo</a></li>
+</ul>
+</div>
+
+<div class="container">
+<ul class="foote_bottom_ul_amrc">
+  <ul class="social_footer_ul">
+<li><a href="https://www.facebook.com/Estancia-Cero-104792754337347/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href="https://www.instagram.com/estanciacero/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+</ul>
+</ul>
+<div><hr></div>
+
+<p class="text-center">Copyright &#169<time>2019</time> | Web Design <a href="" target="_blank">Mercedes Brichetti</a></p>
+
+<div><hr></div>
+</div>
 </footer>
-
 
 <!--AOS-->
 <script>
