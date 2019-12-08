@@ -278,6 +278,10 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:2px;}
 .footer_ul_amrc li a{ color:#CCC;}
 .footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
 
+.footer h5{font-size:18px;color:rgba(211, 160, 82, 0.9);}
+
+.footer h6{font-size:15px;}
+
 .footer hr{border: 0.5px solid #323f45;}
 
 .foote_bottom_ul_amrc{
