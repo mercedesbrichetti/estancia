@@ -1,0 +1,32 @@
+/*NOSOTROS hoja aparte*/
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+  background-image: url("../img/nosotros_fondo.jpg");
+  height:100%;
+  background-position: center;
+  background-repeat:repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container{
+  position:absolute;
+  top:10%;
+  left:15%;
+  right:15%;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+}
+
+
+.titulonosotros{
+  font-family: font-family: 'Merriweather Sans', sans-serif;
+  font-size: 2em; 
+  color:rgba(211, 160, 82)
+}
+ 

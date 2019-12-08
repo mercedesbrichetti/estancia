@@ -18,12 +18,13 @@ html{
   scroll-behavior: smooth;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|Roboto&display=swap');
-
 body {margin: 0; padding: 0; font-family: 'Roboto', sans-serif;}
 
-/*font-family: 'Merriweather Sans', sans-serif;
-font-family: 'Roboto', sans-serif; -->*/
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Muli', sans-serif;
+*/
 
 #header{
   position: sticky;
@@ -39,6 +40,8 @@ font-family: 'Roboto', sans-serif; -->*/
 
 #navbar{
   padding: 1%;
+  font-family: 'Muli', sans-serif;
+  font-size: 13px;
 }
 
 #navbar a{
@@ -59,7 +62,7 @@ h1{
 }*/
 
 h2{
-  font-family: 'Roboto', sans-serif;
+  font-family: font-family: 'Merriweather Sans', sans-serif;
   font-size: 1em; 
   color:rgba(211, 160, 82)
 }
@@ -102,7 +105,7 @@ h2{
 .frase{
   font-family: 'Merriweather Sans', sans-serif;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1em;
   color: black;
 }
 .frase1{
@@ -160,7 +163,7 @@ h2{
   /* The image used */
   background-image: url("../img/nosotros_fondo.jpg");
   /* Set a specific height */
-  min-height: 800px; 
+  min-height: 400px; 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -200,13 +203,15 @@ h2{
   text-align: center;
 }
 
+/*VER MAS PRODUCTOS Y form ENVIAR*/
 .button{
   border-radius: 4px;
   background-color: rgba(211, 160, 82, 0.7);
   border: none;
   color: black;
   text-align: center;
-  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  font-size: 14px;
   padding: 1.2%;
   width: 100%;
   transition: all 0.5s;
@@ -240,13 +245,19 @@ h2{
 .button2{/*boton ENVIAR*/
   width:35%;
 }
+.button3{/*boton CONOCER MÁS en Sobre Nosotros*/
+  width:40%;
+}
+
 
 .datos{
   text-align: center;
   size: 16px;
   background-color: /*rgba(211, 160, 82, 0.4);*/
   padding: 1.5%;
+
 }
+
 
 
 #social-fb, #social-ins{
@@ -284,32 +295,23 @@ h2{
 /*FOOTER*/
 .col_white_amrc { color:#FFF;}
 footer { width:100%; background-color:#353839; min-height:250px; padding:10px 0px 25px 0px ;}
-.pt2 { padding-top:20px ; margin-bottom:10px ;}
-footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:2px;}
+.pt2 { padding-top:20px ; margin-bottom:10px ;font-family: 'Muli', sans-serif;}
+footer p { font-size:13px; color:#CCC; padding:0.5%; margin-bottom:2px;}
 
-.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:15px; padding:0px 0px 10px 0px ; }
+
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
 .footer_ul_amrc li {padding:0px 0px 5px 0px;}
 .footer_ul_amrc li a{ color:#CCC;}
 .footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
 
-.footer h5{font-size:18px;color:rgba(211, 160, 82, 0.9);}
+.footer h5{font-family: 'Merriweather Sans', sans-serif;font-size:20px;color:rgba(211, 160, 82, 0.9);}
 
-.footer h6{font-size:15px;}
+.footer h6{font-size:13px;}
 
-.footer hr{border: 0.5px solid #323f45;}
+.footer hr{border: 0.5px solid #323f45;margin-top:10px;margin-bottom:4px;}
 
-.foote_bottom_ul_amrc{
-  list-style-type:none;
-  padding:0px;
-  display:table;
-  margin-top: 0px;
-  margin-right: auto;
-  margin-bottom: 5px;
-  margin-left: auto;
-}
-
-.social_footer_ul { display:table; margin:10px auto 10px auto; list-style-type:none;  }
-.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul { display:table; margin:0px; list-style-type:none;  }
+.social_footer_ul li { padding-bottom:15px; padding-top:10px;}
 .social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
 .social_footer_ul li i {  width:20px; height:20px; text-align:center;}
 .fa-facebook-f:hover{ color:rgba(59,89,153);}
