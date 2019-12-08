@@ -248,6 +248,20 @@ h2{
   padding: 1.5%;
 }
 
+
+#social-fb, #social-ins{
+  color:#353839;
+  transform:scale(0.6);
+}
+ #social-fb:hover {
+  transform:scale(0.8);
+  color: rgba(59,89,153);
+ }
+ #social-ins:hover{
+  transform:scale(0.8);
+  color:rgb(228,64,95)
+ }
+
 /*WHATSAPP boton fijo*/
 .float{
   position:fixed;
